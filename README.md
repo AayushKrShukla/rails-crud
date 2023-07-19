@@ -1,24 +1,33 @@
-# README
+# ALPHA BLOG
+YelpCamp is an app where users can add, remove, edit and view blogs. You need to be authenticated to perform most of these actions.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project was created using Ruby on Rails with Bootstrap for frontnend styling and SQlite as backend.
 
-Things you may want to cover:
+## Features
+* Registration of an account
+* Create, edit, update and delete blogs
+* Add categories for the blogs
+* For admin delete account and edit or delete categories
 
-* Ruby version
+## Tests
+* It also contains unit tests and integration tests
 
-* System dependencies
+## Run it locally
+You need to have Ruby 2.7.8 and Rails 6.1.7.3
 
-* Configuration
+```
+git clone https://github.com/AayushKrShukla/rails-crud.git
+cd rails-crud
+bundle install
+rails db:create
+rails db:migrate
+```
 
-* Database creation
+To run tests run
 
-* Database initialization
+```
+rails test
+```
 
-* How to run the test suite
+In your browser go to localhost:3000/
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
